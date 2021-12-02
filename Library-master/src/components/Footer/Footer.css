@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;1,300;1,400&display=swapp');
+
+.site-footer {     
+  border-top: 1.5px solid #e1e1e1;
+  background-color: black;   
+  /* background: linear-gradient(35deg,#fbab98, #fb2253 ); */
+  padding-top: .5rem;     
+  padding-top: .8rem; 
+  position: relative;
+  min-width: 100%;
+  bottom: 0;
+  margin-top: 20px;
+
+} 
+
+.titles_footer {     
+  margin-bottom: .2rem;     
+  text-align: center;
+  color: #ffffff;
+  font-size: 13px;
+  font-family: 'Roboto', sans-serif;
+ } 
+
+ .description {   
+  width: 80%;
+  margin: auto;
+  text-align: center; 
+  line-height: 19px; 
+  margin-top: .4rem;   
+  font-size: 10px; 
+  font-family: 'Merriweather', serif;
+}
+ 
+ @media (min-width: 768px) {     
+   .titles_footer {      
+     margin-bottom: .2rem;    
+     text-align: left;
+     color: #ffffff;
+     font-size: 13px;
+     font-family: 'Roboto', sans-serif;
+  }    
+
+  .description {     
+    width: 80%;
+    margin: auto;
+    text-align: center; 
+    margin-top: .4rem;   
+    font-size: 10px; 
+    font-family: 'Merriweather', serif; 
+  }
+
+    .grid-footer {         
+      display: grid;        
+      grid-template-columns: repeat(3, 1fr);         
+      gap: 1.5rem;
+  } 
+}  
+
+.grid-footer > div {     
+  margin-bottom: 1.5rem;
+} 
+
+@media (min-width: 768px) { 
+   .grid-footer > div {        
+      margin: 0;
+  }
+}   
+
+.footer-menu a {     
+  display: block;     
+  text-align: center;
+  color: #ffffff;
+  font-size: 11px;
+  font-family: 'Merriweather', serif;
+  margin: 5px 0px;
+  text-decoration: none;
+}
+
+.footer-menu a:hover {     
+  display: block;     
+  text-align: center;
+  color: #fb2253;
+  font-size: 11px;
+  font-family: 'Merriweather', serif;
+  margin: 5px 0px;
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {     
+   .footer-menu a {         
+     text-align: left;
+     color: #ffffff;
+     font-family: 'Merriweather', serif;
+     font-size: 11px;
+  }
+
+  .footer-menu a:hover {     
+    display: block;     
+    text-align: center;
+    color: #fb2253;
+    font-size: 11px;
+    font-family: 'Merriweather', serif;
+    margin: 5px 0px;
+    text-decoration: none;
+  }
+}  
+
+.copyright {     
+  margin-top: 2rem;    
+   text-align: center;
+   padding-bottom: 17px;
+   font-size: 9px;
+}

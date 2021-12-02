@@ -1,0 +1,44 @@
+.nav {
+    background-color: black;
+    color: #ffffff;
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    width: 100%;
+    height: 80px;
+    list-style: none;
+    text-decoration: none;
+    float: left;
+    margin: 1px;
+    padding: 0px;
+}
+
+.nav li {
+    margin-top: 30px;
+    justify-items: start;
+}
+
+img {
+    width: 70px;
+    display: inline;
+    margin: auto;
+    padding: 1px;
+    margin-right: 60px;
+    margin-left: 20px;
+}
+
+.button_nav {
+    border: none;
+    color: #ffffff;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    margin-top: 30px;
+}

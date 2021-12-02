@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;1,300;1,400&display=swapp');
+
+.Container_gallery {
+    text-align: center;
+    margin-top: 60px; 
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+ul.List_posters {    
+    width: 80%;
+    font-size: 18px;
+    text-align: center;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-around;
+    margin: auto;
+    list-style: none;
+    text-decoration: none;
+    padding: 0px;
+}
+
+.List_poster_item {
+    margin-bottom: 40px;
+}
+
+.poster_img {
+    width: 200px;
+    height: 275px;
+    padding: 20px;
+    margin: 0px;
+}
+
+.title_img {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    margin: auto;
+}
+
+.author_img {
+    font-size: 12px;
+    font-family: 'Merriweather', serif;
+    margin: auto;
+    padding-bottom: 8px;
+    padding-top: 4px;
+}
+
+.download_button {
+    color:#ffffff;
+    transition:0.5s color ease;
+    text-decoration: none;
+    padding: 6px;
+}
+
+.download_button:hover {
+    color:#ffffff;
+    background-color: #000000;
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+    transition:0.5s color ease;
+    text-decoration: none;
+    padding: 6px;
+}
